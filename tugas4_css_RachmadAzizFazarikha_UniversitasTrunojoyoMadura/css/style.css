@@ -1,0 +1,162 @@
+:root {
+    --primary-color: #AEE6EE;
+    --secondary-color: #3A39FF;
+    --text-color: #000;
+    --link-color: #ff0000;
+    --link-hover-color: #ff2600;
+    --background-light: #FFFFFF;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: var(--primary-color);
+    margin: 0;
+    padding: 0;
+}
+
+/* menu.html */
+nav {
+    background-color: var(--secondary-color);
+    padding: 10px 0;
+}
+nav a {
+    color: var(--background-light);
+    text-decoration: none;
+    padding: 10px 20px;
+    display: inline-block;
+}
+nav a:hover {
+    color: var(--link-hover-color);
+}
+
+/* footer.html */
+.footer-container {
+    padding: 10px;
+    background-color: var(--secondary-color);
+    color: var(--background-light);
+    text-align: center;
+}
+.footer-container p {
+    margin: 5px 0;
+}
+.footer-container a {
+    color: var(--link-color);
+    text-decoration: none;
+    font-weight: bold;
+}
+.footer-container a:hover {
+    color: var(--link-hover-color);
+}
+
+/* gallery.html */
+.gallery-container {
+    width: 90%;
+    margin: 0 auto;
+    overflow: hidden;
+    background-color: var(--secondary-color);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+}
+h1 {
+    text-align: center;
+    color: var(--text-color);
+}
+marquee {
+    width: 100%;
+    height: 320px;
+    display: flex;
+    gap: 15px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.gallery-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+/* container */
+.container {
+    width: 90%;
+    margin: 10px auto;
+    background-color: var(--background-light);
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+h1 {
+    text-align: center;
+    color: var(--text-color);
+    margin: 5px 0;
+}
+
+/* home.html & study.html */
+.biodata {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.biodata div {
+    width: 48%;
+}
+.photo img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+table, th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+th {
+    background-color: #f2f2f2;
+}
+.details p {
+    padding-top: 3px;
+    padding-bottom: 9px;
+    margin: 0px;
+}
+.details h3 {
+    margin: 0px;
+}
+
+/* left.html & right.html */
+fieldset {
+    border: 2px solid var(--secondary-color);
+    padding: 15px;
+    background-color: var(--background-light);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+legend {
+    font-weight: bold;
+    font-size: 18px;
+    color: var(--text-color);
+}
+
+/* list & links */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+li {
+    margin: 10px 0;
+}
+a {
+    text-decoration: none;
+    color: var(--secondary-color);
+    font-weight: bold;
+}
+a:hover {
+    color: var(--link-hover-color);
+}
