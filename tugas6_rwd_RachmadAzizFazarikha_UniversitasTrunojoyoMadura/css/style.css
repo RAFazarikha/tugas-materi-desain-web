@@ -1,0 +1,49 @@
+:root{
+    --primary: #5a5d7a;
+    --secondary: #efe4da;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--primary);
+    color: var(--secondary);
+}
+
+.carousel-item{
+    height: 400px;
+}
+
+.carousel-item img {
+    height: 100%; 
+    width: 100%;
+    object-fit: cover;
+}
+
+.navBar{
+    background-color: var(--secondary);
+    color: var(--primary);
+}
+
+.card{
+    background-color: var(--secondary);
+    color: var(--primary);
+}
+
+ul{
+    border-color: var(--primary);
+}
+
+.list-group-item{
+    background-color: var(--secondary);
+    color: var(--primary);
+    border-color: var(--primary);
+}
+
+.foot{
+    background-color: var(--secondary);
+    color: var(--primary);
+}
+
+footer a{
+    color: var(--primary);
+}
